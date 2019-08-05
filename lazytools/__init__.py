@@ -8,4 +8,5 @@ Created on Fri Aug  2 12:35:02 2019
 
 name = 'lazytools'
 
+from lazytools.spyder import *
 from lazytools.exceptions import *

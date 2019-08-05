@@ -12,14 +12,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="toneworld-sflippl",
+    name="lazytools-sflippl",
     version="0.0.0.9000",
     author="Samuel Lippl",
     author_email="sfc.lippl@gmail.com",
-    description="The package accompanying the Trinity Term dissertation",
+    description="A few handy tools for Python.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/sflippl/toneworld",
+    url="https://github.com/sflippl/lazytools",
     packages=setuptools.find_packages(),
     include_package_data = True,
     classifiers=[
