@@ -10,5 +10,3 @@ name = 'lazytools'
 
 from lazytools.spyder import *
 from lazytools.exceptions import *
-from lazytools.to_dataframe import *
-from lazytools.visualizations import *
