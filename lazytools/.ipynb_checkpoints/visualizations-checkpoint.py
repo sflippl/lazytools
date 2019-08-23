@@ -13,7 +13,8 @@ def matrix_heatmap(matrix, pole = None):
     heatmap = (gg.ggplot(df_matrix, gg.aes(x = 'dim1', y = 'dim0', fill = 'array')) + 
               gg.geom_tile() + 
               gg.theme_void() + 
-              gg.scale_y_reverse())
+              gg.scale_y_reverse() + 
+              gg.labs(fill = None))
     if pole is None:
         heatmap += gg.scale_fill_gradient(low = 'white', high = 'black')
     else:
