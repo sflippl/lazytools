@@ -1,7 +1,7 @@
 import numpy as np
 import plotnine as gg
 
-from lazytools.to_dataframe import *
+from lazytools_sflippl.to_dataframe import *
 
 def matrix_heatmap(matrix, pole = None):
     """

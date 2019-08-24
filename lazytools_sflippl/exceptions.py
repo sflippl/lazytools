@@ -7,7 +7,7 @@ Created on Fri Aug  2 12:35:52 2019
 """
 
 import sys
-from lazytools.spyder import in_spyder
+from lazytools_sflippl.spyder import in_spyder
 
 def raise_from(e, msg, new_e = TypeError):
     """
