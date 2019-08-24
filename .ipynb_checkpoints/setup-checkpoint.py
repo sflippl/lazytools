@@ -13,7 +13,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="lazytools_sflippl",
-    version="0.0.0.9000",
+    version="0.0.0.9000.post1",
     author="Samuel Lippl",
     author_email="sfc.lippl@gmail.com",
     description="A few handy tools for Python.",
