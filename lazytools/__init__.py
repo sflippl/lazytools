@@ -6,7 +6,7 @@ Created on Fri Aug  2 12:35:02 2019
 @author: sflippl
 """
 
-name = 'lazytools'
+name = 'lazytools_sflippl'
 
 from lazytools.spyder import *
 from lazytools.exceptions import *
